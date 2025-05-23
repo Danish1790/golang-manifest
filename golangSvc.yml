@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: golang-app
-          image: danishasif/go-todo-assignment:build-7
+          image: danishasif/go-todo-assignment:build-10
           ports:
             - containerPort: 8080
           readinessProbe:
